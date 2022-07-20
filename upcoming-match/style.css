@@ -84,6 +84,7 @@ body {
 
 /* top-match-style */
 
+
 .top-section {
     display: flex;
 }
@@ -124,11 +125,12 @@ body {
 
 }
 
-/* .display-none button */
+/* .display-none button-responsive */
 
 .none-button {
     display: none;
 }
+
 
 /* footer-styles */
 
@@ -164,4 +166,102 @@ hr {
 
 .social {
     font-size: 25px;
+}
+
+/* media-query - tab-view */
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .three-button {
+        flex-direction: row;
+        height: 0px;
+        text-align: center;
+        margin-left: 150px;
+        margin-top: 0px;
+    }
+
+    .button-white {
+        color: #161616;
+        background: whitesmoke;
+    }
+
+    .red {
+        color: white;
+        background: #DD0000;
+    }
+
+    .top-section {
+        display: grid;
+    }
+
+    .none-button {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .none-button a {
+        color: white;
+        text-decoration: none;
+        background-color: #DD0000;
+        padding-top: 20px;
+        width: 140px;
+        height: 50px;
+        border-radius: 5px;
+    }
+
+
+    .top-match {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-container {
+        height: 400px;
+    }
+}
+
+/* media-query - mobile-view */
+
+@media only screen and (max-width:480px) {
+    .head-container {
+        flex-direction: column;
+        width: 700px;
+        height: 1200px;
+        text-align: center;
+    }
+
+    .head-article {
+        padding-bottom: 100px;
+    }
+
+    .three-button {
+        flex-direction: column;
+        height: 0px;
+        text-align: center;
+        margin-left: 150px;
+        margin-top: 0px;
+    }
+
+    .button-white {
+        color: #161616;
+        background: whitesmoke;
+    }
+
+    .red {
+        color: white;
+        background: #DD0000;
+    }
+
+    .top-section {
+        display: grid;
+    }
+
+    .top-match {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 300px;
+    }
+
+    .footer-container {
+        height: 400px;
+    }
 }
