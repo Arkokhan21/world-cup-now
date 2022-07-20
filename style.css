@@ -50,6 +50,10 @@ body {
     border-radius: 5px;
 }
 
+.top-anchor:hover {
+    background-color: yellowgreen;
+}
+
 /* three-button-styles */
 
 .three-button {
@@ -189,6 +193,7 @@ hr {
         text-align: center;
         margin-left: 400px;
         margin-top: 50px;
+        width: 450px;
     }
 
     .button-white {
@@ -230,7 +235,9 @@ hr {
 
     .footer-container {
         height: 400px;
+        width: 1320px;
     }
+
 }
 
 /* media-query - mobile-view */
@@ -282,6 +289,17 @@ hr {
     }
 
     .footer-container {
-        height: 400px;
+        height: 600px;
+        width: 1320px;
+    }
+
+    .footer-head {
+        padding-left: 50px;
+    }
+
+    .footer-anchor a {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
     }
 }
