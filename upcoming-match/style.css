@@ -175,12 +175,22 @@ hr {
 /* media-query - tab-view */
 
 @media only screen and (min-width:481px) and (max-width:768px) {
+
+    .head-container {
+        margin-left: 0px;
+    }
+
+    .top-match {
+        margin-left: 300px;
+        margin-top: 150px;
+    }
+
     .three-button {
         flex-direction: row;
         height: 0px;
         text-align: center;
-        margin-left: 150px;
-        margin-top: 0px;
+        margin-left: 400px;
+        margin-top: 50px;
     }
 
     .button-white {
@@ -202,6 +212,7 @@ hr {
         justify-content: center;
         text-align: center;
         margin-top: 50px;
+        margin-left: 350px;
     }
 
     .none-button a {
@@ -238,12 +249,17 @@ hr {
         padding-bottom: 100px;
     }
 
+    .top-match {
+        margin-left: 450px;
+        margin-top: 150px;
+    }
+
     .three-button {
         flex-direction: column;
         height: 0px;
         text-align: center;
-        margin-left: 150px;
-        margin-top: 0px;
+        margin-left: 450px;
+        margin-top: 50px;
     }
 
     .button-white {
