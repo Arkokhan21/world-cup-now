@@ -79,7 +79,11 @@ body {
 
 .red {
     color: white;
-    background: #DD0000;
+    background: yellowgreen;
+}
+
+.three-button a:hover {
+    color: blue;
 }
 
 /* top-match-style */
